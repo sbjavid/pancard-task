@@ -1,0 +1,32 @@
+*{
+    margin:0;
+}
+
+.child-item{
+    display: flex;
+}
+.child-item > i {
+    font-size: 25px;
+}
+.child-item > h3{
+    font-size: 20px;
+}
+nav{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.parent{
+    display: flex;
+    width: 30%;
+    justify-content:space-around;
+}
+nav > h3 {
+    border: 3px black;
+    border-style: dotted;
+    border-radius: 50% ;
+    padding:20px 0px ;
+}
